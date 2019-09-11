@@ -6,7 +6,7 @@ const path       = require('path');
 const logger     = require('./config/logger');
 
 
-const neode      = require('neode').fromEnv().withDirectory(path.join(__dirname, 'models'));
+// const neode      = require('neode').fromEnv().withDirectory(path.join(__dirname, 'models'));
 
 const app = express();
 
